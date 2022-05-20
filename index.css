@@ -15,12 +15,24 @@ h5 {
 }
 
 .entry {
+    display: block;
     margin-top: 20px;
+}
+
+.audio_section {
+    display: flex;
+    flex-direction: column;
 }
 
 audio {
     background-color: lightgray;
     border-radius: 10px;
+}
+
+label {
+    font-size: .8em;
+    text-align: right;
+    font-style: italic;
 }
 
 .post_heading {
@@ -36,6 +48,10 @@ audio {
     margin: 0px 15px 0px 15px;
 }
 
+.post_text {
+    display: block;
+}
+
 .text {
     text-indent: 5%;
     font-size: 1.2em;
@@ -43,7 +59,7 @@ audio {
 
 .post_credit {
     display: block;
-    float: right;
+    text-align: right;
 }
 
 
