@@ -1,0 +1,55 @@
+html, body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0% 10% 0% 10%;
+    margin: auto;  
+}
+
+h1 {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+
+h5 {
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+}
+
+.entry {
+    margin-top: 20px;
+}
+
+audio {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.post_heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.entry_name {
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    margin: 0px 15px 0px 15px;
+}
+
+.text {
+    text-indent: 5%;
+    font-size: 1.2em;
+}
+
+.post_credit {
+    display: block;
+    float: right;
+}
+
+
+@media (max-width: 720px) {
+    .post_heading {
+        display: flex;
+        flex-direction: column;
+    }
+}
