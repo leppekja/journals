@@ -25,7 +25,6 @@ h5 {
 }
 
 audio {
-    background-color: lightgray;
     border-radius: 10px;
 }
 
@@ -33,6 +32,36 @@ label {
     font-size: .8em;
     text-align: right;
     font-style: italic;
+}
+
+img {
+    /* display: inline-block; */
+    width: 50vw;
+}
+
+table, th, td {
+    border-bottom: 1px solid rgb(78, 78, 78);
+    border-collapse: collapse;
+    padding: 3px;
+    font-size: 1.1em;
+}
+
+caption {
+    caption-side: bottom;
+    font-size: .8em;
+    font-style: italic;
+
+}
+
+.inner {
+    border-left: 1px solid rgb(78, 78, 78);
+}
+
+.post_image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .post_heading {
