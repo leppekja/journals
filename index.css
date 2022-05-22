@@ -93,6 +93,12 @@ caption {
 
 
 @media (max-width: 720px) {
+    html, body {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding: 0% 2% 0% 2%;
+        margin: auto;  
+    }
+
     .post_heading {
         display: flex;
         flex-direction: column;
