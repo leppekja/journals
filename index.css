@@ -1,7 +1,8 @@
 html, body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 110%;
-    padding: 0% 10% 0% 10%;
+    /* font-size: 110%; */
+    font-size: clamp( 1rem, 3vw, 2vh); 
+    padding: 2% 10% 2% 10%;
     margin: auto;  
 }
 
@@ -110,11 +111,11 @@ caption {
 
 
 
-@media (max-width: 720px) {
+@media (max-width: 760px) {
     html, body {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         padding: 0% 1% 0% 1%;
-        margin: auto;  
+        margin: 0;  
     }
 
     .post_heading {
