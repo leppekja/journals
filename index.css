@@ -76,6 +76,7 @@ caption {
 
 .entry_name {
     text-transform: capitalize;
+    font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 2rem;
     margin: 0px 15px 0px 15px;
@@ -84,6 +85,7 @@ caption {
 .post_text {
     display: block;
     overflow: auto;
+    font-size: 1rem;
 
 }
 
@@ -93,7 +95,10 @@ caption {
 
 .navigation_text {
     display: block;
-    text-decoration: underline;
+    text-decoration: underline solid black .1;
+}
+
+.navigation_link {
     color: black;
 }
 
@@ -126,7 +131,7 @@ caption {
 
 
 
-/* @media (max-width: 760px) {
+@media (max-width: 900px) {
     html, body {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         padding: 0% 1% 0% 1%;
@@ -138,7 +143,7 @@ caption {
         flex-direction: column;
     }
 
-    .side_image_post_container {
+    /* .side_image_post_container {
         flex-direction: column;
         width: 100%;
         display: flex;
