@@ -1,6 +1,7 @@
 html, body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: clamp( 1rem, 3vw, 2vh); 
+    /* font-size: clamp( 1rem, 3vw, 2vh);  */
+    font-size: 1em;
     padding: 2% 10% 2% 10%;
     margin: auto;  
 }
@@ -30,6 +31,8 @@ audio {
 }
 
 label {
+    font-size: .8rem;
+
     font-size: .8em;
     font-style: italic;
     display: block;
@@ -52,7 +55,8 @@ table, th, td {
 
 caption {
     caption-side: bottom;
-    font-size: .8em;
+    /* font-size: .8em; */
+    font-size: .8rem;
     font-style: italic;
 }
 
@@ -100,7 +104,7 @@ caption {
 .post_text {
     display: block;
     overflow: auto;
-    font-size: 1rem;
+    /* font-size: 1rem; */
 
 }
 
@@ -121,14 +125,30 @@ caption {
     text-indent: 5%;
 }
 
+.checkbox-list {
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.centered-line-break-symbol {
+    font-size:1.5rem;
+    text-align: center;
+    margin: 0;
+}
+
 .post_credit {
     display: block;
     text-align: right;
-    font-size: .8em;
+    /* font-size: .8em; */
+    font-size: .8rem;
+
 }
 
 .note_text {
-    font-size: .8em;
+    /* font-size: .8em; */
+    font-size: .8rem;
+
 }
 
 .comment {
@@ -137,7 +157,9 @@ caption {
 
 .editor-note {
     color:rgb(78, 78, 78);
-    font-size: .8em;
+    /* font-size: .8em; */
+    font-size: .8rem;
+
     font-style: italic;
 }
 
@@ -212,5 +234,12 @@ footer {
 
     .side_image {
         width: 70vw;
+    } */
+}
+
+
+@media (max-width: 480px) {
+    .editor-note {
+        font-size: smaller;
     }
-} */
+}
