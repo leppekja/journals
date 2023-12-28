@@ -142,6 +142,7 @@ caption {
     text-align: right;
     /* font-size: .8em; */
     font-size: .8rem;
+    margin-left: 50%;
 
 }
 
@@ -153,6 +154,20 @@ caption {
 
 .comment {
     float: right;
+}
+
+.side-note {
+    display: inline;
+    font-size: .8rem;
+    font-style: italic;
+    writing-mode: sideways-lr;
+}
+
+.side-note-text-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .editor-note {
