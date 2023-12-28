@@ -160,7 +160,8 @@ caption {
     display: inline;
     font-size: .8rem;
     font-style: italic;
-    writing-mode: sideways-lr;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
 }
 
 .side-note-text-container {
